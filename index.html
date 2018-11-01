@@ -1,0 +1,72 @@
+<head>
+  <!doctype html>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Groovebox</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Groovebox">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600" rel="stylesheet">
+  <link rel="stylesheet" href="normalise.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <!-- <link rel="stylesheet" href="responsive.css"> -->
+</head>
+
+<body>
+  <header>
+    <img src="./assets/icons/black/burger-black.svg" class="burger-menu">
+    <img src="./assets/logos/logo-black.svg" class="logo">
+    <nav>
+      <img src="./assets/icons/black/basket-black.svg">
+      <img src="./assets/icons/black/search-black.svg">
+      <img src="./assets/icons/black/peace-black.svg">
+    </nav>
+  </header>
+  <div class="intro-text">
+    <h1>Welcome to Groovebox Records. We’re a vinyl store based in Melbourne selling the latest and greatest records from Funk and Soul, to Disco and Psychedelic Rock.
+    </h1>
+  </div>
+  <div class="hero-image bg-image"></div>
+  <section class="top-picks">
+    <div class="filters">
+      <h2>This week's top picks</h2>
+      <ul class="filter-list">
+        <button class="filter-button" data-filter="*">All</button>
+        <button class="filter-button" data-filter=".funk">Funk</button>
+        <button class="filter-button" data-filter=".soul">Soul</button>
+        <button class="filter-button" data-filter=".disco">Disco</button>
+        <button class="filter-button" data-filter=".electronic">Electronic</button>
+        <button class="filter-button" data-filter=".psychadelic">Psychedelic Rock</button>
+      </ul>
+    </div>
+    <div class="grid">
+      <div class="grid-item funk soul nation bg-image">
+        <div class="disk"></div>
+      </div>
+      <div class="grid-item jimi bg-image soul"></div>
+      <div class="grid-item cream bg-image disco soul"></div>
+      <div class="grid-item kool bg-image psychadelic soul"></div>
+      <div class="grid-item zapp bg-image funk soul"></div>
+      <div class="grid-item pink bg-image disco funk"></div>
+      <div class="grid-item curtis bg-image funk electronic"></div>
+      <div class="grid-item lord bg-image electronic"></div>
+      <div class="grid-item todd bg-image electronic"></div>
+      <div class="grid-item peanut bg-image disco"></div>
+      <div class="grid-item earth bg-image electronic disco"></div>
+      <div class="grid-item parliament bg-image psychadelic"></div>
+    </div>
+  </section>
+  <footer>
+    <ul class="social-links">
+      <img src="./assets/icons/black/facebook-black.svg" alt="">
+      <img src="./assets/icons/black/instagram-black.svg" alt="">
+      <img src="./assets/icons/black/spotify-black.svg" alt="">
+      <img src="./assets/icons/black/twitter-black.svg" alt="">
+    </ul>
+  </footer>
+
+
+  <script src="./jquery-3.2.1.min.js"></script>
+  <script src="./isotope.pkgd.min.js"></script>
+  <script src="./filter.js"></script>
+</body>
